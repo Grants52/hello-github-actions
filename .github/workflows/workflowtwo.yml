@@ -1,6 +1,9 @@
+name: workflowtwo
+
 on:
- push:
  
+ repository_dispatch:
+    types: [trigger-workflow-2]
  
 jobs:
   one:
